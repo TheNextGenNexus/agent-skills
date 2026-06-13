@@ -1,0 +1,40 @@
+{
+  "name": "nexgendata-skills",
+  "owner": {
+    "name": "NexGenData",
+    "email": "hello@thenextgennexus.com"
+  },
+  "metadata": {
+    "description": "NexGenData agent skills — niche public-data intelligence (SEC & regulatory, APAC company/financial, IP) built on Apify Actors.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "apify-sec-regulatory-intelligence",
+      "source": "./skills/apify-sec-regulatory-intelligence",
+      "skills": "./",
+      "description": "Monitor and extract U.S. SEC and global financial-regulator filings via Apify Actors — insider trades (Form 4), 8-K events, 13F holdings & changes, activist 13D/G, Form D / Reg A+, late-filing NT, N-PORT/N-PX fund data, Form ADV, Form 144, SEC litigation/enforcement, FINRA BrokerCheck, and enforcement from FINMA, MAS, HK SFC, India SEBI, Australia ASIC, Japan EDINET, China A-share, and UK RNS. Factual public filing data for research — not investment advice.",
+      "keywords": [
+        "sec",
+        "edgar",
+        "regulatory",
+        "filings",
+        "insider-trading",
+        "form-4",
+        "8-k",
+        "13f",
+        "13d",
+        "form-d",
+        "finra",
+        "enforcement",
+        "litigation",
+        "compliance",
+        "due-diligence",
+        "mutual-fund",
+        "global-regulators"
+      ],
+      "category": "data-extraction",
+      "version": "1.0.0"
+    }
+  ]
+}
