@@ -19,7 +19,6 @@ All Actors below are **public** on the Apify Store under `nexgendata/`. Always c
 | `sec-form-8k-material-events-scraper` | Material events (M&A, results, exec changes) by SEC item code | `dateFrom`,`dateTo` (req), `itemFilter[]` (e.g. 1.01, 2.01, 5.02), `tickers[]` |
 | `sec-edgar-8k-filings` | 8-K material-events tracker (alt) | date window, tickers |
 | `sec-event-router` | UNIFIED per-company SEC filings/events timeline | company/ticker, date window |
-| `sec-edgar-search` | Any-filing company search (10-K, 10-Q, etc.) | `query` (req), `formTypes` ("10-K,10-Q"), date window, `maxResults` |
 | `sec-edgar-filings-scraper` | Pull 10-K/10-Q & filing documents | company, form types |
 
 ## U.S. SEC — capital raises, funds, advisers
