@@ -21,7 +21,7 @@ Extract and monitor public regulatory filings - U.S. SEC plus major global regul
 ## Workflow
 
 ### Step 1 — Pick the Actor
-Identify the filing type / regulator from the user's goal and choose the Actor from **`references/actor-index.md`**. Most U.S. tasks map to one Actor; for "all SEC events for a company" use `nexgendata/sec-event-router` (unified timeline). If the index has no match, search the Store:
+Identify the filing type / regulator from the user's goal and choose the Actor from **`references/actor-index.md`**. Most U.S. tasks map to one Actor; for "all SEC events for a company" use `nexgendata/sec-edgar-filings-scraper` (company filing history, every form type you choose). If the index has no match, search the Store:
 
     apify actors search "KEYWORDS" --user-agent apify-awesome-skills/apify-sec-regulatory-intelligence --json --limit 10 2>/dev/null
 
@@ -58,7 +58,6 @@ Report: row count, the key fields, and each row's `source_url` (every filing lin
 | Private placements (Form D / Reg A+) | `nexgendata/sec-form-d-tracker`, `nexgendata/sec-reg-a-plus-crowdfunding-offerings-tracker` |
 | Late-filing early warnings (NT) | `nexgendata/sec-form-nt-late-filing-tracker` |
 | Any-filing company search (10-K/10-Q…) | `nexgendata/sec-edgar-filings-scraper` |
-| Unified per-company SEC timeline | `nexgendata/sec-event-router` |
 | SEC litigation / enforcement | `nexgendata/sec-litigation-releases` |
 | Broker / firm registration check | `nexgendata/finra-brokercheck-search` |
 | Global regulator enforcement | `nexgendata/finma-mas-sfc-enforcement-tracker`, `nexgendata/hk-sfc-enforcement-tracker`, `nexgendata/singapore-mas-enforcement`, `nexgendata/australia-asic-enforcement`, `nexgendata/india-sebi-filings-tracker` |
