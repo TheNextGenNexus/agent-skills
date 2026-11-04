@@ -57,7 +57,7 @@ Report: row count, the key fields, and each row's `source_url` (every filing lin
 | Activist stakes (13D/G) | `nexgendata/sec-schedule-13dg-activist-tracker` |
 | Private placements (Form D / Reg A+) | `nexgendata/sec-form-d-tracker`, `nexgendata/sec-reg-a-plus-crowdfunding-offerings-tracker` |
 | Late-filing early warnings (NT) | `nexgendata/sec-form-nt-late-filing-tracker` |
-| Any-filing company search (10-K/10-Q…) | `nexgendata/sec-edgar-search`, `nexgendata/sec-edgar-filings-scraper` |
+| Any-filing company search (10-K/10-Q…) | `nexgendata/sec-edgar-filings-scraper` |
 | Unified per-company SEC timeline | `nexgendata/sec-event-router` |
 | SEC litigation / enforcement | `nexgendata/sec-litigation-releases` |
 | Broker / firm registration check | `nexgendata/finra-brokercheck-search` |
